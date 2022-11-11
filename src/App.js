@@ -1,25 +1,21 @@
+import { Header } from "./components/Header/Header";
+import { Menu } from "./components/Menu/Menu";
+
+import './common.scss';
 import logo from './logo.svg';
-import './App.css';
+import {PrevNext} from "./components/PrevNext/PrevNext";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <>
+          <Header/>
+          <Menu/>
+          <PrevNext />
+      </>
+  )
 }
 
 export default App;
