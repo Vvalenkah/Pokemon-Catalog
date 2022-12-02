@@ -4,7 +4,7 @@ export const Header =() => {
     return (
         <header className="wrapper">
                 <h1>Pokemon catalog!</h1>
-                <p>By Vvalenkah</p>
+                <a href="https://github.com/Vvalenkah" target="_blank"><p>By Vvalenkah</p></a>
         </header>
     )
 }

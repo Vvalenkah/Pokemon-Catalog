@@ -2,9 +2,16 @@ header {
     padding-top: 5rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 5rem;
+    padding-bottom: 3rem;
+    border-bottom: 2px black solid;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 p {

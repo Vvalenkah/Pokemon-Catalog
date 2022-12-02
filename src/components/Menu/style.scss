@@ -7,3 +7,44 @@
   gap: 7rem;
   margin-bottom: 10rem;
 }
+
+.select-container {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  p {
+    font-size: 2rem;
+  }
+  select {
+    width: 9rem;
+    height: 3.5rem;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-family: 'Montserrat';
+    border: 2px black solid;
+  }
+}
+
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  gap: 18rem;
+  button {
+    cursor: pointer;
+    width: 20rem;
+    height: 6rem;
+    border-radius: 20px;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+  }
+}
